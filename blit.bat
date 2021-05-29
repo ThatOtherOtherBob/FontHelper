@@ -1,2 +1,2 @@
 @echo off
-32blit install C:\vs\Wumpus\out\build\32Blit-Release\Wumpus.blit
+32blit install out\build\32Blit-Release\FontHelper.blit

@@ -2,12 +2,12 @@
 cmake_minimum_required(VERSION 3.9)
 
 # Replace "game" with a name for your project (this is used the name of the output)
-project(Wumpus)
+project(FontHelper)
 
 ####################################################################################################
 # Add your sources here (adding headers is optional, but helps some CMake generators)
-set(PROJECT_SOURCE game.cpp game.hpp TextScreenBuffer.hpp TextScreenBuffer.cpp ButtonEventCreator.hpp ButtonEventCreator.cpp Buttons.hpp TextScroller.hpp TextScroller.cpp
-WumpusEngine.hpp WumpusEngine.cpp)
+set(PROJECT_SOURCE game.cpp game.hpp ButtonEventCreator.hpp ButtonEventCreator.cpp Buttons.hpp ExtraFontInfo.hpp Bitmap.hpp Bitmap.cpp
+FontHelperEngine.hpp FontHelperEngine.cpp)
 ####################################################################################################
 
 # ... and any other files you want in the release here

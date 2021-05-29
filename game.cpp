@@ -1,7 +1,7 @@
 #include "game.hpp"
-#include "WumpusEngine.hpp"
+#include "FontHelperEngine.hpp"
 
-WumpusEngine GameEngine;
+FontHelperEngine FontHelperEngine;
 
 ///////////////////////////////////////////////////////////////////////////
 //
@@ -11,7 +11,7 @@ WumpusEngine GameEngine;
 //
 void init()
 {
-    GameEngine.Start();
+    FontHelperEngine.Start();
 }
 
 ///////////////////////////////////////////////////////////////////////////
@@ -23,7 +23,7 @@ void init()
 //
 void render(uint32_t time)
 {
-    GameEngine.Render();
+    FontHelperEngine.Render();
 }
 
 ///////////////////////////////////////////////////////////////////////////
@@ -35,5 +35,5 @@ void render(uint32_t time)
 //
 void update(uint32_t time)
 {
-    GameEngine.Update();
+    FontHelperEngine.Update();
 }
